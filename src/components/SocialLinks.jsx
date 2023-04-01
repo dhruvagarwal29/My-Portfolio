@@ -14,7 +14,7 @@ export const SocialLinks = () => {
                     LinkedIn <FaLinkedin size={30} color='#0072b1'/>
                 </>
             ),
-            href: 'https://linkedin.com/dhruvagarwal29',
+            href: 'https://www.linkedin.com/in/dhruvagarwal29/',
             style:'rounded-tr-md'
         },
         {
