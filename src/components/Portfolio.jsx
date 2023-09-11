@@ -2,27 +2,50 @@ import React from 'react'
 import Ether from '../assets/portfolio/Ethereum.jpeg'
 import Residual from '../assets/portfolio/Residual.png'
 import re from '../assets/portfolio/react.png'
+import Connectify from '../assets/portfolio/Connectify.png'
+import RecognitionApp from '../assets/portfolio/RecognitionApp.png'
+import PingPong from '../assets/portfolio/PingPong.png'
 const Portfolio = () => {
 
     const portfolios = [
         {
             id:1,
+            src:Connectify,
+            heading: 'Social Network - Connectify' ,
+            href:'https://github.com/dhruvagarwal29/connectify-u'
+        },
+        {
+            id:2,
+            src:RecognitionApp,
+            heading: 'Image Recognition App' ,
+            href: 'https://github.com/dhruvagarwal29/image_recognition_app' 
+        },
+        
+        {
+            id:3,
             src:re,
             heading: 'Debiasing the Word Embeddings',
             href: 'https://github.com/dhruvagarwal29/Debiasing-Word-Embeddings.git' 
         },
         {
-            id:2,
+            id:4,
+            src:Residual,
+            heading: 'Implemented Deep learning residual networks' ,
+            href:'https://github.com/dhruvagarwal29/Residual-Network'
+        },
+        {
+            id:5,
             src:Ether,
             heading: 'Ethereum Transactions and Balance Using Etherscan API' ,
             href:'https://github.com/dhruvagarwal29/Track-Ethereum-Transactions-and-Balance-Using-Python'
         },
         {
-            id:3,
-            src:Residual,
-            heading: 'Implemented Deep learning residual networks' ,
-            href:'https://github.com/dhruvagarwal29/Residual-Network'
+            id:6,
+            src:PingPong,
+            heading: 'Ping Pong Fun Game' ,
+            href:'https://github.com/dhruvagarwal29/Ping-Pong-Game'
         },
+        
     ]
 
   return (

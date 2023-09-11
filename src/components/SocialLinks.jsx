@@ -63,7 +63,7 @@ export const SocialLinks = () => {
                     <a 
                         href={href} 
                         className='flex justify-between items-center w-full text-black'
-                        download={download} target="_blank" rel="noreferrer"
+                         target="_blank" rel="noreferrer"
                     
                     >
                         {child}

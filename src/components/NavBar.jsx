@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { React,  useState } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa"
 import { Link } from 'react-scroll';
 
@@ -48,7 +48,7 @@ export const NavBar = () => {
              hover:scale-105 duration-200'>
                 <Link to={link} smooth duration={500}>{link}</Link>
                 {download && (
-                <a href={'/DhruvAgarwal-Resume.pdf'} download={download} target="_blank" rel="noreferrer">Resume</a>
+                <a href={'/DhruvAgarwal-Resume.pdf'}target="_blank" rel="noreferrer">Resume</a>
                 )}
              </li>
         ))}
